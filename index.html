@@ -1,25 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>State Tourism Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Andhra Pradesh</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to State Tourism</h1>
 
-    <div class="card">
-        <h2>Popular Destinations</h2>
-        <p>Explore beaches, hills, and heritage sites.</p>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Andhra Tourism</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#places">Attractions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#hotels">Hotels</a></li>
+                <li class="nav-item"><a class="nav-link" href="#guide">Travel Guide</a></li>
+                <li class="nav-item"><a class="nav-link" href="#map">Map</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container text-center text-white">
+        <h1 class="display-4 fw-bold">Explore the Beauty of Andhra Pradesh</h1>
+        <p class="lead">
+            Beaches • Hills • Temples • Heritage • Nature
+        </p>
+
+        <a href="#places" class="btn btn-warning btn-lg mt-3">
+            Explore Destinations
+        </a>
+    </div>
+</section>
+
+<!-- Tourist Attractions -->
+<section id="places" class="container py-5">
+
+    <h2 class="text-center mb-4">Popular Tourist Attractions</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>Araku Valley</h5>
+                    <p>Beautiful hill station known for coffee plantations and scenic beauty.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>Rushikonda Beach</h5>
+                    <p>One of the finest beaches with water sports and breathtaking views.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600"
+                    class="card-img-top">
+
+                <div class="card-body">
+                    <h5>Tirupati</h5>
+                    <p>World-famous spiritual destination visited by millions every year.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="card">
-        <h2>Hotels</h2>
-        <p>Find top-rated accommodations.</p>
-    </div>
+</section>
 
-    <div class="card">
-        <h2>Travel Guides</h2>
-        <p>Plan your perfect trip with expert guides.</p>
-    </div>
+<!-- Hotels -->
+<section id="hotels" class="bg-light py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">Recommended Hotels</h2>
+
+<div class="row text-center">
+
+<div class="col-md-4">
+<div class="hotel-box">
+<h4>Beach Resort</h4>
+<p>★★★★★</p>
+<p>Luxury stay near the coastline.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="hotel-box">
+<h4>Hill View Hotel</h4>
+<p>★★★★☆</p>
+<p>Perfect stay surrounded by nature.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="hotel-box">
+<h4>City Comfort Inn</h4>
+<p>★★★★☆</p>
+<p>Affordable accommodation in the city.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Travel Guide -->
+
+<section id="guide" class="container py-5">
+
+<h2 class="text-center">Travel Guide</h2>
+
+<p class="text-center mt-3">
+
+✔ Best time to visit: October – March<br>
+
+✔ Local transport available<br>
+
+✔ Online hotel booking available<br>
+
+✔ Guided tours available
+
+</p>
+
+</section>
+
+<!-- Map -->
+
+<section id="map" class="container py-5">
+
+<h2 class="text-center mb-4">Location Map</h2>
+
+<div class="ratio ratio-16x9">
+
+<iframe
+src="https://www.google.com/maps?q=Andhra+Pradesh&output=embed"
+allowfullscreen></iframe>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-primary text-white text-center p-3">
+
+© 2026 Andhra Pradesh Tourism Department
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
